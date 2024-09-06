@@ -1,0 +1,46 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    outline: 1px solid red;
+}
+body{
+    width: 100%;
+    height: 100%;
+}
+.wrapper{
+    max-width:1024px;
+    margin: 0 auto;
+    margin-top: .5rem;
+}
+header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: .5rem;
+}
+
+
+.serchbar{
+    width: 215px;
+    
+}
+.serchbar div{
+    width: 100%;
+    outline: 1px solid rgba(142, 142, 142, 1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:4px, 0px, 4px, 0px
+}
+.serchbar div p{
+    color: rgba(142, 142, 142, 1);
+}
+.icon{
+    max-width: 270px;
+    display: flex;
+    gap:1rem
+}
+.icon img{
+    color: rgba(142, 142, 142, 1);
+}
